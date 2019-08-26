@@ -47,15 +47,14 @@ li{
 	float: right;
 	margin-top: 225px;
 }
-.tag .tag_num li a{
+.tag_num li{
 	color: #659753;
-	text-decoration: none;
 	border:solid 1px #447D22;
 	background: #B2DD99;
 	padding:10px;
 }
 
-.tag_num li a.on{
+.tag_num li:nth-child(2){
 	background: #E0F1D6;
 	color: #4E5F44;
 	padding-top: 20px;
