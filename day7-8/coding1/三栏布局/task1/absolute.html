@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>绝对定位法</title>
+	<style>
+		html,body{margin: 0;height: 100%;}
+		#left,#right{position: absolute;top: 0;width: 200px;height: 100%;}
+		#left{left: 0;background-color: #a0b3d6;}
+		#right{right: 0;background: #a0b3d6;}
+		#main{margin: 0 210px;background: #ffe6b8;height: 100%;}
+	</style>
+</head>
+<body>
+	<div id="left">左侧固定宽度</div>
+	<div id="main">中间部分宽度随浏览器宽度变化而自适应变化</div>
+	<div id="right">右侧固定宽度</div>
+</body>
+</html>

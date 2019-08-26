@@ -1,0 +1,118 @@
+body{
+	margin:0;
+	padding: 0;
+}
+.head_mid_nav a{
+	color: #FFF;
+	margin:0;
+	padding:0;
+	font-size: 0.9em;
+}
+li{
+	list-style-type: none;
+	float: left;
+	margin-right: 10px;
+	padding:0;
+}
+.head{
+	width: 100%;
+	height: 70px;
+	background: #333333;
+}
+.mid{
+	width: 960px;
+	height: 70px;
+	margin: 0 auto;
+}
+.logo{
+	float: left;
+	color: #FFF;
+	font-size: 1.5em;
+	line-height: 70px;
+	text-align: center;
+}
+.head_mid_nav{
+	float: right;
+}
+.banner{
+	width: 100%;
+	height: 280px;
+	background: #66BB33;
+}
+.tag{
+	width: 960px;
+	margin: 0 auto;
+}
+.tag_num{
+	float: right;
+	margin-top: 225px;
+}
+.tag_num li{
+	border:solid 1px #447D22;
+	background: #B2DD99;
+	padding:10px;
+	color: #709B57;
+}
+.tag_num li:nth-child(2){
+	background: #E0F1D6;
+	color: #4E5F44;
+	padding-top: 20px;
+	margin-top: -10px;
+}
+.nav{
+	width: 100%;
+	border-bottom: 1px solid #DDD;
+}
+.nav_mid{
+	width: 960px;
+	height: 46px;
+	margin:0 auto;
+}
+.nav li a{
+	color: #000;
+	text-decoration: none;
+
+}
+.nav ul{
+	padding: 0;
+}
+.nav li {
+	margin: 0;
+}
+.nav_mid li a{
+	display: block;
+	border:1px solid #D7D7D7;
+	border-top-left-radius:1em;
+	border-top-right-radius:1em;
+	width: 92px;
+	height: 45px;
+	line-height: 45px;
+	text-align: center;
+	font-size: 0.8em;
+	background: #EEE;
+}
+.nav_mid li a.on{
+	background: #FFF;
+	border-bottom: none;
+	height: 46px;
+}
+.content{
+	width:960px;
+	margin:0 auto;
+	display: flex;
+	flex-wrap: wrap;
+}
+article{
+	padding:80px;
+	margin: 5px 5px 0 0;
+	border: 1px solid #DADADA; 
+	flex: 50px;
+}
+.bottom{
+	width: 100%;
+	height: 120px;
+	text-align: center;
+	padding-top: 10px;
+	color: #FFF;
+	background: #666666;
+}
