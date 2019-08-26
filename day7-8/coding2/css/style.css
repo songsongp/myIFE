@@ -48,11 +48,11 @@ li{
 	margin-top: 225px;
 }
 .tag_num li a{
+	text-decoration: none;
+	color: #709B57;
 	border:solid 1px #447D22;
 	background: #B2DD99;
 	padding:10px;
-	color: #709B57;
-	text-decoration: none;
 }
 
 .tag_num li a.on{
