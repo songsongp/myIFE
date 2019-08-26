@@ -47,9 +47,11 @@ li{
 	float: right;
 	margin-top: 225px;
 }
-.tag_num li a{
-	text-decoration: none;
+.tag li a{
 	color: #709B57;
+	text-decoration: none;
+}
+.tag_num li a{
 	border:solid 1px #447D22;
 	background: #B2DD99;
 	padding:10px;
